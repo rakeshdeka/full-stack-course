@@ -1,0 +1,26 @@
+p {
+    color: green;
+    font-size: 18px;
+}
+
+/* id seclector */
+#paragraph {
+    background-color: lightcoral;
+
+}
+
+#paragraph2 {
+    background-color: yellow;
+
+}
+
+#paragraph3 {
+    background-color: red   ;
+
+}
+
+/* class selector */
+.lorem {
+    font-style: italic;
+    text-decoration: underline;
+}
