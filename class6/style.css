@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* declaring globally 0 margin and padding for all elements */
+    box-sizing: border-box;
+    /* to include padding and border in the total width and height of an element */
+}
+
+
+#main {
+    background-color: lightblue;
+    /* height: 100vh; */
+    /* width: 100vw; */
+}
+
+
+.container {
+    background-color: lightgray;
+    height: 50px;
+}
+
+.wrapper {
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+nav {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+nav:hover {
+    background-color: gray;
+    cursor: pointer;
+
+}
+
+.content {
+    /* padding: 20px;
+     */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.card-container {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.grid-container {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid green;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 150px);   
+    
+
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.box {
+    border: 2px solid red;
+    padding: 12px;
+
+}
